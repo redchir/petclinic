@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: redchir/docker_jenkins_kb8
+  repository: redchir/myphpapp
   tag: latest
   pullPolicy: IfNotPresent
 

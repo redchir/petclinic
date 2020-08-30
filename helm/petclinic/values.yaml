@@ -2,10 +2,10 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replicaCount: 10
+replicaCount: 1
 
 image:
-  repository: redchir/docker_jenkins_kb8
+  repository: redchir/docker_jenkins_kb8:10
   tag: latest
   pullPolicy: IfNotPresent
 
